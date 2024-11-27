@@ -61,6 +61,10 @@ fun FirstBody(navControlador: NavController){
                 verticalArrangement = Arrangement.Center,
                 horizontalAlignment = Alignment.CenterHorizontally) {
 
+                Text("Save your data or you may forget it!!")
+
+                Spacer(modifier = Modifier.padding(8.dp))
+
                 OutlinedTextField(  // Nombre
                     value = nameRemember,
                     onValueChange = { nameRemember = it },

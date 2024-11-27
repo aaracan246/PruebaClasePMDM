@@ -44,11 +44,11 @@ fun SecondBody(navControlador: NavController, name: String?, age: Int?){
 
 
                 name?.let {     // Nombre
-                    Text("Bienvenido, $it.")
+                    Text("Welcome back, $it.")
                 }
 
                 age?.let {      // Edad
-                    Text("Ahora mismo tienes: $it años.")
+                    Text("You are $it years old.")
                 }
 
                 Spacer(modifier = Modifier.padding(8.dp))
